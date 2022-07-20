@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/estylosFormulario.css') }}">
     <!-- Jquery-->
     <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -57,7 +59,8 @@
             <label for="">Mensaje</label>
             <input type="textarea" name="" id="fmensaje" class="campo textA" placeholder="&#x1f4c4; |" required>
 
-            <label for="">Recapcha</label>            
+            <label for="">Recapcha</label>  
+            <div class="g-recaptcha" data-sitekey="6LfMlQQhAAAAAO65-YB1rtM8oJ9Wlz5s-EDoq0z3"></div>          
 
             <input type="submit" name="" id="fEnviar" value="Enviar" class="boton">
 
