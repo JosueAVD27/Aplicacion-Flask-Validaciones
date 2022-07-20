@@ -25,7 +25,45 @@
 
 <body>
     
-    
+    <div align="center" class="container">
+        <form class="formulario" action="formularioJosue">
+            <div class="sub-contenedor">
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text" name="" id="fNombre" class="campo" placeholder="&#x1f468; |" required>
+                    <div id="mensaje1" class="errores erroresnombre">Ingrese su nombre</div>
+                </div>
+                <div>
+                    <label for="">Apellido</label>
+                    <input type="text" name="" id="fApellido" class="campo" placeholder="&#x1f468; |" required>
+                    <div id="mensaje2" class="errores erroresnombre">Ingrese su apellido</div>
+                </div>
+                
+            </div>
+            <div class="sub-contenedor">
+                <div>
+                    <label for="">Edad</label>
+                    <input type="number" name="" id="fedad" class="campo" placeholder="&#x2728; |" required>
+                    <div id="mensaje3" class="errores erroresedad">Ingrese su edad</div>
+                </div>
+                <div>
+                    <label for="">E-mail</label>
+                    <input type="email" name="" id="femail" class="campo" placeholder="&#x2709; |" required>
+                    <div id="mensaje4" class="errores erroresedad">Ingrese su e-mail</div>
+                </div>
+                
+            </div>
+
+            <label for="">Mensaje</label>
+            <input type="textarea" name="" id="fmensaje" class="campo textA" placeholder="&#x1f4c4; |" required>
+
+            <label for="">Recapcha</label>            
+
+            <input type="submit" name="" id="fEnviar" value="Enviar" class="boton">
+
+        </form>
+
+    </div>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
