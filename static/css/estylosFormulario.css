@@ -1,0 +1,60 @@
+.container{
+    margin: auto;
+    padding: 30px;
+}
+
+.campo{
+    border: solid 4px #0042ad;
+    padding: 10px;
+    margin-bottom: 35px;
+
+}
+
+.textA{
+    width: 100%!important;
+
+}
+
+.erroresnombre{
+    margin-left: 45px!important;
+    margin-top: -30px;
+}
+
+.erroresedad{
+    margin-left: 45px!important;
+    margin-top: -30px;
+}
+
+.errores{
+    background-color: red;
+    display: none;
+    font-weight: bolder;
+    color: aliceblue;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+
+
+.boton{
+    background-color: blueviolet;
+    border: solid 0;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.formulario{
+    display: grid;
+    width: 350px;
+}
+
+.sub-contenedor{
+    display: flex;
+}
+
+.sub-contenedor div{
+    float: center; 
+    padding: 12px; 
+    text-align: left
+}
