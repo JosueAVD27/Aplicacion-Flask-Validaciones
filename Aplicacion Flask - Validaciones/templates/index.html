@@ -1,0 +1,83 @@
+{% extends 'base.html' %} {% block content %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Tarea1 de Aplicaciones Web" />
+    <meta name="author" content="Armando Velasquez" />
+    <title>Formulario</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" rel="stylesheet"/>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"
+        type="text/css" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estylosFormulario.css') }}">
+    <!-- Jquery-->
+    <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    
+    <div align="center" class="container">
+        <form class="formulario" action="#">
+            <div class="sub-contenedor">
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text" name="" id="fNombre" class="campo" placeholder="&#x1f468; |" required>
+                    <div id="mensaje1" class="errores erroresnombre">Ingrese su nombre</div>
+                </div>
+                <div>
+                    <label for="">Apellido</label>
+                    <input type="text" name="" id="fApellido" class="campo" placeholder="&#x1f468; |" required>
+                    <div id="mensaje2" class="errores erroresnombre">Ingrese su apellido</div>
+                </div>
+                
+            </div>
+            <div class="sub-contenedor">
+                <div>
+                    <label for="">Edad</label>
+                    <input type="number" name="" id="fedad" class="campo" placeholder="&#x2728; |" required>
+                    <div id="mensaje3" class="errores erroresedad">Ingrese su edad</div>
+                </div>
+                <div>
+                    <label for="">E-mail</label>
+                    <input type="email" name="" id="femail" class="campo" placeholder="&#x2709; |" required>
+                    <div id="mensaje4" class="errores erroresedad">Ingrese su e-mail</div>
+                </div>
+                
+            </div>
+
+            <label for="">Mensaje</label>
+            <input type="textarea" name="" id="fmensaje" class="campo textA" placeholder="&#x1f4c4; |" required>
+
+            <div id="fcaptcha" class="g-recaptcha" data-sitekey="6LergQQhAAAAABxv-64oh5Dbmi4yR7YfJyNVNAtI" ></div>   
+            <br>       
+
+            <input type="submit" name="" id="fEnviar" value="Enviar" class="boton">
+
+        </form>
+
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
+    <!-- Core theme JS-->
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    
+{% endblock %}
