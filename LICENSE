@@ -1,36 +1,11 @@
+Copyright 2023 Armando Josue Velasquez Delgado
 
-La aplicación estará disponible en `http://localhost:4200/`.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), 
+to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### Backend (Java - Spring Boot)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-1. Importa el proyecto `appfit` en tu IDE Java preferido (por ejemplo, IntelliJ IDEA o Eclipse).
-
-2. Configura la conexión a la base de datos en el archivo de configuración `application.properties` o `application.yml`.
-
-3. Ejecuta la aplicación desde tu IDE. El servidor estará disponible en `http://localhost:8080/`.
-
-### Base de Datos
-
-1. Crea una base de datos en tu sistema de gestión de bases de datos (por ejemplo, MySQL) y asegúrate de que coincida con la configuración en el backend.
-
-2. Ejecuta el script SQL `appfit.sql` en la base de datos para crear las tablas necesarias y cargar datos iniciales si es necesario.
-
-## Uso
-
-Describe aquí cómo utilizar la aplicación una vez que esté configurada y en funcionamiento. Proporciona ejemplos de rutas de API, interacciones de usuario, etc.
-
-## Contribuir
-
-Si deseas contribuir a este proyecto, sigue los pasos:
-
-1. Haz un fork del repositorio.
-
-2. Crea una nueva rama para tu contribución: `git checkout -b tu-caracteristica`.
-
-3. Realiza tus cambios y asegúrate de que las pruebas sean exitosas.
-
-4. Envía una solicitud de extracción (Pull Request) con una descripción detallada de tus cambios.
-
-## Licencia
-
-Este proyecto está bajo la licencia [Licencia MIT](LICENSE).
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
